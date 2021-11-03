@@ -1,5 +1,10 @@
 Formaweb IV
 
-Proyecto de prueba para seguir el tutorial de Git.
+- Seguir el tutorial de Git.
 
-02/11/21
+- Uso de la terminal tanto Powershell como Bash.
+
+- Wireframes: qué son --> esquema básico de una página web.
+
+- Aprendimos a utilizar las abreviaturas de Emmet.
+
