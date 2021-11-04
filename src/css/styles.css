@@ -41,7 +41,7 @@
                 top: 50%;
                 left: 33.33%;
                 z-index: 1;
-                color: blanchedalmond;
+                color: #BACC81;
                 font-size: x-large;
                 font-family: 'Work Sans';
             }
@@ -97,6 +97,7 @@
             
             h2 {
                 text-align: center;
+                color: #013A20;
             }
             
             footer {
