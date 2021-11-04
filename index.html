@@ -5,9 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurante Pepita</title>
+    <title>Pulpitos a la Mar</title>
     <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/src/css/styles.css">
 
 
@@ -16,68 +15,73 @@
 <body>
     <!--MENÚ DE NAVEGACIÓN-->
     <nav id="nav-menu">
-        <img id="logo" src="#" alt="logo-restaurante" />
-
-        <ul>
-            <li>Carta</li>
-            <li>Galería</li>
-            <li>Contacto</li>
-        </ul>
+        <img id="img-logo" src="/src/img/pulpitosalamar.png" alt="logo-restaurante" />
+        <div class="container-links">
+            <a class="item-menu" href="#">Menús</a></li>
+            <a class="item-menu" href="#">Galería</a></li>
+            <a class="item-menu" href="#">Contacto</a></li>
+        </div>
     </nav>
-    <!--CAROUSEL SLIDER-->
+    <!--Header con vídeo-->
     <header>
-        <div class="carousel-inner">
-            <div class="item-active">
-                <img src="https://images.pexels.com/photos/4846386/pexels-photo-4846386.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Pulpo" />
-            </div>
-
-            <div class="item">
-                <img src="https://images.pexels.com/photos/8448322/pexels-photo-8448322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=9400" alt="Quesadillas" />
-            </div>
-
-            <div class="item">
-                <img src="https://images.pexels.com/photos/4198022/pexels-photo-4198022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Ensalada" />
+        <div class="header-container">
+            <video id="video" width="100%" preload="auto" autoplay loop muted="muted" volume="0"> 
+                <source src="https://vod-progressive.akamaized.net/exp=1636027008~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F227%2F15%2F376139925%2F1569323453.mp4~hmac=7173c9de85d825702d90fe5feb4adffbdc91b712dd0d5a1fe6ca283c8a48f120/vimeo-prod-skyfire-std-us/01/227/15/376139925/1569323453.mp4?filename=video.mp4" type="video/mp4"> 
+            </video>
+            <div class="overlay">
+                <h1 class="texto-header">Del Mar a tu Plato</h1>
             </div>
         </div>
     </header>
+    <!--Descripción del restaurante-->
     <main>
-        <section class="descripcion">
-            <p id="descripcion-restaurante">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, odit vel optio adipisci obcaecati quisquam vitae magni officiis maiores quae corporis, iure hic esse quo animi dolor odio ratione harum!
+        <div class="text-description">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat libero hic tenetur aperiam et non voluptate nemo unde, consequatur dolores nihil possimus ipsam amet. Facere officiis iure asperiores soluta aliquid. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Enim nesciunt ipsum earum voluptatum iusto explicabo veniam, laboriosam, expedita eum assumenda eius, provident incidunt doloremque quibusdam beatae non aperiam possimus eligendi!
             </p>
-        </section>
-        <!---->
-        <section class="ultimas-noticias">
-            <div class="noticia-1">
-                <img src="#" alt="">
-                <p>Lorem ipsum</p>
-
+        </div>
+        <section id="menus-lista">
+            <div class="producto" id="tenor">
+                <div class="level">MENÚ PULPITOS</div>
+                <h2>150€</h2>
+                <img width="50%" src="https://images.pexels.com/photos/921361/pexels-photo-921361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Me apetece</button>
             </div>
-            <div class="noticia-2">
-                <img src="#" alt="">
-                <p>Lorem ipsum</p>
-
+            <div class="producto" id="bass">
+                <div class="level">MENÚ DELICIAS DEL MAR</div>
+                <h2>200€</h2>
+                <img width="50%" src="https://images.pexels.com/photos/2647939/pexels-photo-2647939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Me apetece</button>
             </div>
+
         </section>
-        <!--Mapa de localización-->
-        <section class="localizacion">
-
-
+        <section id="map-container">
+            <h2> Visítanos:</h2>
+            <img id="map" width="50%" src="src/img/maps.jpg">
         </section>
 
         <footer>
-            <div id="footer">
-                <img id="logo-footer" src="#" alt="logo-restaurante" />
+            <img id="img-logo" src="/src/img/pulpitosalamar.png" alt="logo-restaurante" />
+            <div class="copyright">Sarai Temes&reg;
 
-                <ul>
-                    <li>Carta</li>
-                    <li>Galería</li>
-                    <li>Contacto</li>
-                </ul>
             </div>
 
         </footer>
     </main>
+
+
 </body>
 
 </html>

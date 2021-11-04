@@ -1,4 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Work+Sans:wght@300&display=swap');
-body {
-    font-family: "Work Sans", sans-serif;
-}
+            @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Work+Sans:wght@300&display=swap');
+            body {
+                font-family: "Bitter", sans-serif;
+                background-image: url(/src/img/beige-paper.png);
+                background-color: white;
+            }
+            
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 10px;
+            }
+            
+            #img-logo {
+                width: 20%;
+                height: auto;
+            }
+            
+            a:link {
+                color: #013A20;
+                text-decoration: none;
+            }
+            
+            a:visited {
+                color: black;
+            }
+            
+            .header-container {
+                position: relative;
+                margin-top: 10px;
+            }
+            
+            .header-container video {
+                position: relative;
+                z-index: 0;
+            }
+            
+            .overlay {
+                position: absolute;
+                top: 50%;
+                left: 33.33%;
+                z-index: 1;
+                color: blanchedalmond;
+                font-size: x-large;
+                font-family: 'Work Sans';
+            }
+            
+            .text-description {
+                color: #013A20;
+                text-align: justify;
+                margin: 25px;
+                background-color: #BACC81;
+            }
+            
+            #menus-lista {
+                margin-top: 60px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .producto {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: calc(100% / 3);
+                margin: 10px;
+                border: 3px solid #013A20;
+                border-radius: 3px;
+            }
+            
+            .producto>.level {
+                background-color: #BACC81;
+                color: black;
+                padding: 15px 0;
+                width: 100%;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            
+            .producto>button {
+                border: 0;
+                margin: 15px 0;
+                background-color: #BACC81;
+                font-weight: 400;
+            }
+            
+            #map {
+                display: block;
+                margin: auto;
+                margin-top: 30px;
+                border: 3px solid #013A20;
+                margin-bottom: 20px;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            footer {
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                margin-top: 10px;
+                background-color: #BACC81;
+                margin: 10px;
+                padding: 10px;
+                color: #013A20;
+            }

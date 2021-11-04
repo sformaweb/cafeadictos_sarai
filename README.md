@@ -10,4 +10,5 @@ Formaweb IV
 
 - Paleta de colores que voy a utilizar: https://www.canva.com/colors/color-palettes/green-lemons/
 
-- Fuentes que voy a utilizar: Work Sans (H's) & Bitter (Textos)
+- Fuentes que voy a utilizar: Work Sans (H's) & Bitter (Textos) --> Importadas de Google en styles.css
+
