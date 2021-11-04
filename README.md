@@ -12,3 +12,5 @@ Formaweb IV
 
 - Fuentes que voy a utilizar: Work Sans (H's) & Bitter (Textos) --> Importadas de Google en styles.css
 
+- Presentación del trabajo realizado en la clase y corección de algunos elementos.
+
