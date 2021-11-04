@@ -51,6 +51,7 @@
                 text-align: justify;
                 margin: 25px;
                 background-color: #BACC81;
+                padding: 25px;
             }
             
             #menus-lista {
@@ -83,6 +84,7 @@
             .producto>button {
                 border: 0;
                 margin: 15px 0;
+                padding: 10px;
                 background-color: #BACC81;
                 font-weight: 400;
             }
